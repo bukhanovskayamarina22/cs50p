@@ -1,0 +1,1 @@
+print(input('your input with emoticons: ').replace(':)', '🙂').replace(':(', '🙁'))
