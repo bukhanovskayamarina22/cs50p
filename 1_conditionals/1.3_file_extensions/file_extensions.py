@@ -1,7 +1,7 @@
 def main():
-    # greet (take user input)
+    # get filename as user input 
     filename = input('Filename with extension: ')
-    
+
     # pring media type
     print(getMediaType(filename.strip()))
 
