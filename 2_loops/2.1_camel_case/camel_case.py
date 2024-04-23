@@ -1,8 +1,8 @@
 def main():
     # get user input in camelCase, and strip from excessive whitespaces
-    input = input("Enter something in camelCase: ").strip()
+    user_input = input("Enter something in camelCase: ").strip()
     # print the result of converting the string to snake_case
-    print(convertToSnakeCase(input))
+    print(convertToSnakeCase(user_input))
 
 # function that converts a camel case string to a snake case string
 def convertToSnakeCase(camel_string):
